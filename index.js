@@ -136,7 +136,7 @@ app.post('/api/send-messages', async (req, res) => {
 });
 
 const PORT = 5000;
-const DOMAIN = "conecta.horizontal.com.co";
+const DOMAIN = "conecta.horizontal.com";
 app.listen(PORT, DOMAIN, () => {
     console.log(`Servidor Bot escuchando en http://${DOMAIN}:${PORT}`);
 });
