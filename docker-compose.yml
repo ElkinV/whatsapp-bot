@@ -4,7 +4,7 @@ services:
     container_name: whatsappbot_container
     shm_size: '2gb'
     ports:
-      - "5000:5000"  # [Puerto local]:[Puerto contenedor]
+      - "5000:5000"
     volumes:
       - .:/usr/src/app
       - /usr/src/app/node_modules
